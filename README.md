@@ -1,4 +1,4 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+Here is the project of landing page for MyBike. Techstack used in creating process are HTML, CSS and SCSS.
+
+[FIGMA DESIGN](https://www.figma.com/file/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?type=design&node-id=0-1&mode=design)
+[DEMO LINK](https://Nightycake.github.io/mybike-landing-page/)

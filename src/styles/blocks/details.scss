@@ -1,0 +1,44 @@
+.details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-top: 40px;
+
+  &--first {
+    padding-top: 48px;
+  }
+
+  &__picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media (min-width: 744px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 48px;
+
+    &__picture {
+      &--1 {
+        grid-column: 1 / 3;
+      }
+
+      &--last {
+        grid-column: 2 / 4;
+      }
+    }
+
+    &--first {
+      padding-top: 64px;
+    }
+  }
+
+  @media (min-width: 1260px) {
+    &__picture {
+
+      &--first {
+        padding-top: 48px;
+      }
+    }
+  }
+}

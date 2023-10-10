@@ -1,0 +1,31 @@
+@import "../utils/variables";
+
+.address {
+  padding-top: 48px;
+
+  &__label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    padding-top: 24px;
+    font-style: normal;
+
+    &--first {
+      padding-top: 0;
+    }
+  }
+
+  &__link {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    padding-top: 8px;
+    text-decoration: none;
+    font-style: normal;
+    color: $default-text-color;
+  }
+
+  @media (min-width: 744px) {
+    padding-top: 0;
+  }
+}
